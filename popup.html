@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon Quick Search</title>
+        <script src="popup.js"></script>
+        <script src="background.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Amazon Quick Search</h1>
+        <h2>Items: 0</h2>
+        <div>
+            <ol id="list"></ol>
+        </div>
+        <form id="insert">
+            <input type="text" id="itemInput" placeholder="Item" name="item">
+            <input type="submit" id="add" value="Add">
+        </form>
+        <input type="submit" id="search" value="Search">
+        <input type="submit" id="delete" value="Delete All">  
+
+    </body>
+</html>

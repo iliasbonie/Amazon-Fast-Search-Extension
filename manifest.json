@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Amazon Fast Search",
+    "version": "1.0",
+    "icons": {
+        "128": "iconfinder-amazon-128.png",
+        "48": "iconfinder-amazon-48.png",
+        "16": "iconfinder-amazon-16.png"
+    },
+    "browser_action": {
+        "default_icon": "iconfinder-amazon-16.png",
+        "default_popup": "popup.html"
+    },
+    "background":{
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "contextMenus"
+    ]
+}

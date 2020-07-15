@@ -1,0 +1,22 @@
+body{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div{
+    height: 200px;
+}
+#itemInput{
+    width: 150px;
+    float: left;
+}
+#insert{
+    margin-bottom: 10px;
+}
+#search, #delete{
+    margin-bottom: 10px;
+}
